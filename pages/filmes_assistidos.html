@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="../styles/index.css">
+        <link rel="stylesheet" href="../styles/filmes.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Project Web Desing</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Filmes Assistidos</h1>   
+            <nav>
+                <h3><a href="../index.html">Home</a></h3>
+                <h3><a href="./filmes_avaliados.html">Filmes Avaliados</a></h3>
+                <h3><a href="./filmes_favoritos.html">Filmes Favoritos</a></h3>
+                <h3><a href="./filmes_assistir.html">Filmes Para Assistir</a></h3>
+                <h3><a href="./filmes_resenhados.html">Filmes Resenhados</a></h3>
+            </nav>
+        </header>
+        <main>
+            <section class="pos-header">
+                <section class="busca">
+                    <form>
+                        <input type="text" class="pesquisa" placeholder="Pesquisar Filmes">
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </section>
+                
+                <section class="filtro">
+                    <i class="fa-solid fa-filter" style="color: #005ca9;"></i>
+                    <select>
+                        <option>Alfabetica &#8595;</option>
+                        <option>Alfabetica &#8593;</option>
+                    </select>
+                </section>
+            </section>
+            
+            <ul class="filmes">
+                <li>
+                    <img class="poster" src="../imgs/homem_aranha_aranhaverso.jpg" alt="poster homem aranha no aranha verso">
+                    <section class="titulo">
+                        <h2>Homem Aranha no Aranhaverso</h2>
+                    </section>
+                </li>
+                <li>
+                    <img class="poster" src="../imgs/anatomia_de_uma_queda.jpeg" alt="poster anatomia de uma queda">
+                    <section class="titulo">
+                       <h2>Anatomia de uma Queda</h2> 
+                    </section>
+                </li>
+                <li>
+                    <img class="poster" src="../imgs/ilha_do_medo.jpg" alt="poster ilha do medo">
+                    <section class="titulo">
+                       <h2>Ilha do Medo</h2> 
+                    </section>
+                </li>
+                <li>
+                    <img class="poster" src="../imgs/interstellar.jpg" alt="poster interstellar">
+                    <section class="titulo">
+                        <h2>Interstellar</h2>
+                    </section>
+                </li>
+            </ul>
+        </main>
+        <footer>&copy; Copyright Controle Filmes - 2024</footer>
+    </body>
+
+</html>
